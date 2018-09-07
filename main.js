@@ -33,7 +33,7 @@ numOne.addEventListener('click', function() {
 // When user clicks, the question pops up.
 var numTwo = document.getElementById('numTwo')
 numTwo.addEventListener('click', function() {
-        var question = prompt('which player led the NBA on scoring last season?');
+        var question = prompt('which player led the NBA in scoring last season?');
         console.log(question)
         if (question == 'James Harden') {
             playerPoints += 10;
@@ -53,8 +53,8 @@ numTwo.addEventListener('click', function() {
 // When user clicks, the question pops up.
 var numThree = document.getElementById('numThree');
 numThree.addEventListener('click', function () {
-    var question = prompt('Which team had the most losses last season?');
-    if (question === 'Atlanta Hawks') {
+    var question = prompt('Which team had the most losses in the NBA last season?');
+    if (question === 'Phoenix Suns') {
         playerPoints += 10;
         console.log(playerPoints)
     } else {
@@ -71,9 +71,9 @@ numThree.addEventListener('click', function () {
 // When user clicks, the question pops up.
 var numFour = document.getElementById('numFour')
 numFour.addEventListener('click', function() {
-        var question = prompt('which player holds the record for most consecutive games played?');
+        var question = prompt('which former player holds the record for most consecutive games played?');
         console.log(question)
-        if (question == 'Tristan Thompson') {
+        if (question == 'A.C. Green') {
             playerPoints += 10;
             console.log(playerPoints)
             // this.textContent(score + playerPoints)
@@ -154,7 +154,7 @@ var numEight = document.getElementById('numEight');
 numEight.addEventListener('click', function () {
     var question = prompt('which team was the #1 seed in the Eastern Conference last season?');
         console.log(question)
-        if (question == 'Boston Celtics') {
+        if (question == 'Toronto Raptors') {
             playerPoints += 20;
             console.log(playerPoints)
             
@@ -212,9 +212,9 @@ numTen.addEventListener('click', function () {
 // When user clicks, the question pops up.
 var numEleven = document.getElementById('numEleven');
 numEleven.addEventListener('click', function () {
-    var question = prompt('which player was selected #3 in the 2018 NBA Draft?');
+    var question = prompt('which player was selected #14 in the 2018 NBA Draft?');
         console.log(question)
-        if (question == 'Marvin Bagley III') {
+        if (question == 'Michael Porter jr.') {
             playerPoints += 30;
             console.log(playerPoints)
             
