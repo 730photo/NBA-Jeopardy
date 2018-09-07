@@ -21,19 +21,26 @@ and questions on the 5th row are worth 50 points.
 
 
 Technologies Used:<br>
-Languages - HTML5, CSS3, Javascript, jQuery
-Design - Google Fonts
-Project Planning & User Stories - Trello
-Text Editor- VS Code
+<ul>
+<li>Languages - HTML5, CSS3, Javascript, jQuery</li>
+<li>Design - Google Fonts</li>
+<li>Project Planning & User Stories - Trello</li>
+<li>Text Editor- VS Code</li>
+</ul>
 
 
 Features:<br>
-JavaScripts alert with a question whenever you click a white rectangle.
-Scoreboard.
-Finish/Reset Game Button
+<ul>
+<li>JavaScripts alert with a question whenever you click a white rectangle.</li>
+<li>Scoreboard.</li>
+<li>Finish/Reset Game Button</li>
+</ul>
 
 Future Development:<br>
-Make it a multiplayer game.
-Add A.I. (player vs. computer).
-Add multiple answer options.
-Style it a lot better. </h3>
+<ul>
+<li>Make it a multiplayer game.</li>
+<li>Add A.I. (player vs. computer).</li>
+<li>Add multiple answer options.</li>
+<li>Style it a lot better.</li>
+</ul>
+</h3>
