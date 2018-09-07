@@ -2,7 +2,9 @@
 
 <br>
 
-<h3>For project #1, I created a simple game of Jeopardy. <br>
+<h3>For project #1, I created a simple game of Jeopardy. 
+
+<br>
 
 -Once players come to the site the game is already loaded and they can start playing immediately.
 
