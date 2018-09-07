@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jeopardy (NBA Edition)</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <h1>Jeopardy (NBA Edition)</h1>
+    <h2><div class="score">PlayerOne: <span id="playerScore"></span></div></h2>
+    <h2><div class="score">PlayerTwo: <span id="playerScore"></span></div></h2>
+        <table class="game">
+            <!--category row-->
+            <tr>
+                <th>
+                    <h3 class="category">
+                        Players
+                    </h3>
+                </th>
+                <th>
+                    <h3 class="category">
+                        Stats
+                    </h3>
+                </th>
+                <th>
+                    <h3 class="category">
+                        Teams
+                    </h3>
+                </th>
+                <th>
+                    <h3 class="category">
+                        Records
+                    </h3>
+                </th>
+                <th>
+                    <h3 class="category">
+                        History
+                    </h3>
+                </th>
+            </tr>
+
+            <!--first row-->
+            <tr>
+
+                <td id="numOne">10</td>
+                <td id="numTwo">10</td>
+                <td id="numThree">10</td>
+                <td id="numFour">10</td>
+                <td id="numFive">10</td>
+            </tr>
+
+            <!--second row-->
+            <tr>
+                <td id="numSix">20</td>
+                <td id="numSeven">20</td>
+                <td id="numEight">20</td>
+                <td id="numNine">20</td>
+                <td id="numTen">20</td>
+            </tr>
+
+            <!--third row-->
+            <tr>
+                <td id="numEleven">30</td>
+                <td id="numTwelve">30</td>
+                <td id="numThirteen">30</td>
+                <td id="numFourteen">30</td>
+                <td id="numFifteen">30</td>
+            </tr>
+
+            <!--fourth row-->
+            <tr>
+                <td id="numSixteen">40</td>
+                <td id="numSeventeen">40</td>
+                <td id="numEighteen">40</td>
+                <td id="numNineteen">40</td>
+                <td id="numTwenty">40</td>
+            </tr>
+
+            <!--fifth row-->
+            <tr>
+                <td id="numTwentyone">50</td>
+                <td id="numTwentytwo">50</td>
+                <td id="numTwentythree">50</td>
+                <td id="numTwentyfour">50</td>
+                <td id="numTwentyfive">50</td>
+
+            </tr>
+        </table>
+   
+
+    <div class="over">
+        <button id=finished type="reset">FINISHED</button>
+        </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
