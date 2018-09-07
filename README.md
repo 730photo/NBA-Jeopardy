@@ -4,7 +4,7 @@
 
 <h3>For project #1, I created a simple game of Jeopardy.
 
---Once players come to the site the game is already loaded and they can start playing immediately.
+-Once players come to the site the game is already loaded and they can start playing immediately.
 
 -The game starts when the user clicks on a rectangle and a question pops up. If the user puts in the right answer they gain points, if they put in the wrong answer, they lose points.
 
@@ -20,20 +20,19 @@ and questions on the 5th row are worth 50 points.
 -when the game is over, you click the "FINISHED" button at the bottom of the page and whoever has the highest score wins. The "Finished" button also resets the game. 
 
 
-
-Technologies Used:
+Technologies Used:<br>
 Languages - HTML5, CSS3, Javascript, jQuery
 Design - Google Fonts
 Project Planning & User Stories - Trello
 Text Editor- VS Code
 
 
-Features:
+Features:<br>
 JavaScripts alert with a question whenever you click a white rectangle.
 Scoreboard.
 Finish/Reset Game Button
 
-Future Development:
+Future Development:<br>
 Make it a multiplayer game.
 Add A.I. (player vs. computer).
 Add multiple answer options.
