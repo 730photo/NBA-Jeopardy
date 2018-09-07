@@ -1,6 +1,8 @@
-<h1>Overview:
+<h1>Overview:</h1>
 
-For project #1, I created a simple game of Jeopardy.
+<br>
+
+<h3>For project #1, I created a simple game of Jeopardy.
 
 --Once players come to the site the game is already loaded and they can start playing immediately.
 
@@ -35,5 +37,4 @@ Future Development:
 Make it a multiplayer game.
 Add A.I. (player vs. computer).
 Add multiple answer options.
-Style it a lot better.
-</h1>
+Style it a lot better. </h3>
