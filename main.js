@@ -69,44 +69,44 @@ numThree.addEventListener('click', function () {
 });
 
 // When user clicks, the question pops up.
-var numFour = document.getElementById('numFour')
-numFour.addEventListener('click', function() {
-        var question = prompt('which former player holds the record for most consecutive games played?');
-        console.log(question)
-        if (question == 'A.C. Green') {
-            playerPoints += 10;
-            console.log(playerPoints)
-            // this.textContent(score + playerPoints)
-        } else {
-            playerPoints -= 10;
-        }
+// var numFour = document.getElementById('numFour')
+// numFour.addEventListener('click', function() {
+//         var question = prompt('which former player holds the record for most consecutive games played?');
+//         console.log(question)
+//         if (question == 'A.C. Green') {
+//             playerPoints += 10;
+//             console.log(playerPoints)
+//             // this.textContent(score + playerPoints)
+//         } else {
+//             playerPoints -= 10;
+//         }
 
-        $('#numFour').prop('disabled', true);
-        $('#numFour').css('color', 'transparent').css('pointer-events', 'none');
+//         $('#numFour').prop('disabled', true);
+//         $('#numFour').css('color', 'transparent').css('pointer-events', 'none');
 
-        // updates score
-        updateScore();
-    });
+//         // updates score
+//         updateScore();
+//     });
 
 // When user clicks, the question pops up.
-var numFive = document.getElementById('numFive')
-numFive.addEventListener('click', function() {
-        var question = prompt('which team won the NBA championship last season?');
-        console.log(question)
-        if (question == 'Golden State Warriors') {
-            playerPoints += 10;
-            console.log(playerPoints)
+// var numFive = document.getElementById('numFive')
+// numFive.addEventListener('click', function() {
+//         var question = prompt('which team won the NBA championship last season?');
+//         console.log(question)
+//         if (question == 'Golden State Warriors') {
+//             playerPoints += 10;
+//             console.log(playerPoints)
             
-            // this.textContent(score + playerPoints)
-        } else {
-            playerPoints -= 10;
-        }
+//             // this.textContent(score + playerPoints)
+//         } else {
+//             playerPoints -= 10;
+//         }
 
-        $('#numFive').prop('disabled', true);
-        $('#numFive').css('color', 'transparent').css('pointer-events', 'none');
-        // updates score
-        updateScore();
-    });
+//         $('#numFive').prop('disabled', true);
+//         $('#numFive').css('color', 'transparent').css('pointer-events', 'none');
+//         // updates score
+//         updateScore();
+//     });
 
 // When user clicks, the question pops up.
 var numSix = document.getElementById('numSix');
@@ -170,44 +170,44 @@ numEight.addEventListener('click', function () {
 });
 
 // When user clicks, the question pops up.
-var numNine = document.getElementById('numNine');
-numNine.addEventListener('click', function () {
-    var question = prompt('which player holds the record for most three-pointers in a single game?');
-        console.log(question)
-        if (question == 'Steph Curry') {
-            playerPoints += 20;
-            console.log(playerPoints)
+// var numNine = document.getElementById('numNine');
+// numNine.addEventListener('click', function () {
+//     var question = prompt('which player holds the record for most three-pointers in a single game?');
+//         console.log(question)
+//         if (question == 'Steph Curry') {
+//             playerPoints += 20;
+//             console.log(playerPoints)
             
-            // this.textContent(score + playerPoints)
-        } else {
-            playerPoints -= 20;
-        }
+//             // this.textContent(score + playerPoints)
+//         } else {
+//             playerPoints -= 20;
+//         }
 
-        $('#numNine').prop('disabled', true);
-        $('#numNine').css('color', 'transparent').css('pointer-events', 'none');
-        // updates score
-        updateScore();
-});
+//         $('#numNine').prop('disabled', true);
+//         $('#numNine').css('color', 'transparent').css('pointer-events', 'none');
+//         // updates score
+//         updateScore();
+// });
 
 // When user clicks, the question pops up.
-var numTen = document.getElementById('numTen');
-numTen.addEventListener('click', function () {
-    var question = prompt('which player won the slam dunk contest in 2005?');
-        console.log(question)
-        if (question == 'Josh Smith') {
-            playerPoints += 20;
-            console.log(playerPoints)
+// var numTen = document.getElementById('numTen');
+// numTen.addEventListener('click', function () {
+//     var question = prompt('which player won the slam dunk contest in 2005?');
+//         console.log(question)
+//         if (question == 'Josh Smith') {
+//             playerPoints += 20;
+//             console.log(playerPoints)
             
-            // this.textContent(score + playerPoints)
-        } else {
-            playerPoints -= 20;
-        }
+//             // this.textContent(score + playerPoints)
+//         } else {
+//             playerPoints -= 20;
+//         }
 
-        $('#numTen').prop('disabled', true);
-        $('#numTen').css('color', 'transparent').css('pointer-events', 'none');
-        // updates score
-        updateScore();
-});
+//         $('#numTen').prop('disabled', true);
+//         $('#numTen').css('color', 'transparent').css('pointer-events', 'none');
+//         // updates score
+//         updateScore();
+// });
 
 // When user clicks, the question pops up.
 var numEleven = document.getElementById('numEleven');
@@ -270,245 +270,245 @@ numThirteen.addEventListener('click', function () {
 });
 
 // When user clicks, the question pops up.
-var numFourteen = document.getElementById('numFourteen');
-numFourteen.addEventListener('click', function () {
-    var question = prompt('which former player holds the record for second most points in a single game?');
-        console.log(question)
-        if (question == 'Kobe Bryant') {
-            playerPoints += 30;
-            console.log(playerPoints)
+// var numFourteen = document.getElementById('numFourteen');
+// numFourteen.addEventListener('click', function () {
+//     var question = prompt('which former player holds the record for second most points in a single game?');
+//         console.log(question)
+//         if (question == 'Kobe Bryant') {
+//             playerPoints += 30;
+//             console.log(playerPoints)
             
-            // this.textContent(score + playerPoints)
-        } else {
-            playerPoints -= 30;
-        }
+//             // this.textContent(score + playerPoints)
+//         } else {
+//             playerPoints -= 30;
+//         }
 
-        $('#numFourteen').prop('disabled', true);
-        $('#numFourteen').css('color', 'transparent').css('pointer-events', 'none');
-        // updates score
-        updateScore();
-});
+//         $('#numFourteen').prop('disabled', true);
+//         $('#numFourteen').css('color', 'transparent').css('pointer-events', 'none');
+//         // updates score
+//         updateScore();
+// });
 
 // When user clicks, the question pops up.
-var numFifteen = document.getElementById('numFifteen');
-numFifteen.addEventListener('click', function () {
-    var question = prompt('who was the first player to get drafted out of highschool?');
-        console.log(question)
-        if (question == 'Moses Malone') {
-            playerPoints += 30;
-            console.log(playerPoints)
+// var numFifteen = document.getElementById('numFifteen');
+// numFifteen.addEventListener('click', function () {
+//     var question = prompt('who was the first player to get drafted out of highschool?');
+//         console.log(question)
+//         if (question == 'Moses Malone') {
+//             playerPoints += 30;
+//             console.log(playerPoints)
             
-            // this.textContent(score + playerPoints)
-        } else {
-            playerPoints -= 30;
-        }
+//             // this.textContent(score + playerPoints)
+//         } else {
+//             playerPoints -= 30;
+//         }
 
-        $('#numFifteen').prop('disabled', true);
-        $('#numFifteen').css('color', 'transparent').css('pointer-events', 'none');
-        // updates score
-        updateScore();
-});
+//         $('#numFifteen').prop('disabled', true);
+//         $('#numFifteen').css('color', 'transparent').css('pointer-events', 'none');
+//         // updates score
+//         updateScore();
+// });
 
 // When user clicks, the question pops up.
-var numSixteen = document.getElementById('numSixteen');
-numSixteen.addEventListener('click', function () {
-    var question = prompt('which player won the NBA Sportsmanship award in 2015?');
-        console.log(question)
-        if (question == 'Kyle Korver') {
-            playerPoints += 40;
-            console.log(playerPoints)
+// var numSixteen = document.getElementById('numSixteen');
+// numSixteen.addEventListener('click', function () {
+//     var question = prompt('which player won the NBA Sportsmanship award in 2015?');
+//         console.log(question)
+//         if (question == 'Kyle Korver') {
+//             playerPoints += 40;
+//             console.log(playerPoints)
             
-            // this.textContent(score + playerPoints)
-        } else {
-            playerPoints -= 40;
-        }
+//             // this.textContent(score + playerPoints)
+//         } else {
+//             playerPoints -= 40;
+//         }
 
-        $('#numSixteen').prop('disabled', true);
-        $('#numSixteen').css('color', 'transparent').css('pointer-events', 'none');
-        // updates score
-        updateScore();
-});
+//         $('#numSixteen').prop('disabled', true);
+//         $('#numSixteen').css('color', 'transparent').css('pointer-events', 'none');
+//         // updates score
+//         updateScore();
+// });
 
-// When user clicks, the question pops up.
-var numSeventeen = document.getElementById('numSeventeen');
-numSeventeen.addEventListener('click', function () {
-    var question = prompt('who had the most turnovers in the NBA last season?');
-        console.log(question)
-        if (question == 'Russell Westbrook') {
-            playerPoints += 40;
-            console.log(playerPoints)
+// // When user clicks, the question pops up.
+// var numSeventeen = document.getElementById('numSeventeen');
+// numSeventeen.addEventListener('click', function () {
+//     var question = prompt('who had the most turnovers in the NBA last season?');
+//         console.log(question)
+//         if (question == 'Russell Westbrook') {
+//             playerPoints += 40;
+//             console.log(playerPoints)
             
-            // this.textContent(score + playerPoints)
-        } else {
-            playerPoints -= 40;
-        }
+//             // this.textContent(score + playerPoints)
+//         } else {
+//             playerPoints -= 40;
+//         }
 
-        $('#numSeventeen').prop('disabled', true);
-        $('#numSeventeen').css('color', 'transparent').css('pointer-events', 'none');
-        // updates score
-        updateScore();
+//         $('#numSeventeen').prop('disabled', true);
+//         $('#numSeventeen').css('color', 'transparent').css('pointer-events', 'none');
+//         // updates score
+//         updateScore();
 
-});
+// });
 
-// When user clicks, the question pops up.
-var numEighteen = document.getElementById('numEighteen');
-numEighteen.addEventListener('click', function () {
-    var question = prompt('which teams were in the NBA Finals in 2012?');
-    console.log(question)
-    if (question == 'Oklahoma City Thunder & Miami Heat') {
-        playerPoints += 40;
-        console.log(playerPoints)
+// // When user clicks, the question pops up.
+// var numEighteen = document.getElementById('numEighteen');
+// numEighteen.addEventListener('click', function () {
+//     var question = prompt('which teams were in the NBA Finals in 2012?');
+//     console.log(question)
+//     if (question == 'Oklahoma City Thunder & Miami Heat') {
+//         playerPoints += 40;
+//         console.log(playerPoints)
         
-        // this.textContent(score + playerPoints)
-    } else {
-        playerPoints -= 40;
-    }
+//         // this.textContent(score + playerPoints)
+//     } else {
+//         playerPoints -= 40;
+//     }
 
-    $('#numEighteen').prop('disabled', true);
-    $('#numEighteen').css('color', 'transparent').css('pointer-events', 'none');
-    // updates score
-    updateScore(); 
-});
+//     $('#numEighteen').prop('disabled', true);
+//     $('#numEighteen').css('color', 'transparent').css('pointer-events', 'none');
+//     // updates score
+//     updateScore(); 
+// });
 
-// When user clicks, the question pops up.
-var numNineteen = document.getElementById('numNineteen');
-numNineteen.addEventListener('click', function () {
-    var question = prompt('who holds the record for most 3-pointers attempted in a single game?');
-    console.log(question)
-    if (question == 'J.R. Smith') {
-        playerPoints += 40;
-        console.log(playerPoints)
+// // When user clicks, the question pops up.
+// var numNineteen = document.getElementById('numNineteen');
+// numNineteen.addEventListener('click', function () {
+//     var question = prompt('who holds the record for most 3-pointers attempted in a single game?');
+//     console.log(question)
+//     if (question == 'J.R. Smith') {
+//         playerPoints += 40;
+//         console.log(playerPoints)
         
-        // this.textContent(score + playerPoints)
-    } else {
-        playerPoints -= 40;
-    }
+//         // this.textContent(score + playerPoints)
+//     } else {
+//         playerPoints -= 40;
+//     }
 
-    $('#numNineteen').prop('disabled', true);
-    $('#numNineteen').css('color', 'transparent').css('pointer-events', 'none');
-    // updates score
-    updateScore(); 
-});
+//     $('#numNineteen').prop('disabled', true);
+//     $('#numNineteen').css('color', 'transparent').css('pointer-events', 'none');
+//     // updates score
+//     updateScore(); 
+// });
 
-// When user clicks, the question pops up.
-var numTwenty = document.getElementById('numTwenty');
-numTwenty.addEventListener('click', function () {
-    var question = prompt('what year was the 3-point line implemented into the NBA?');
-    console.log(question)
-    if (question == '1979') {
-        playerPoints += 40;
-        console.log(playerPoints)
+// // When user clicks, the question pops up.
+// var numTwenty = document.getElementById('numTwenty');
+// numTwenty.addEventListener('click', function () {
+//     var question = prompt('what year was the 3-point line implemented into the NBA?');
+//     console.log(question)
+//     if (question == '1979') {
+//         playerPoints += 40;
+//         console.log(playerPoints)
         
-        // this.textContent(score + playerPoints)
-    } else {
-        playerPoints -= 40;
-    }
+//         // this.textContent(score + playerPoints)
+//     } else {
+//         playerPoints -= 40;
+//     }
 
-    $('#numTwenty').prop('disabled', true);
-    $('#numTwenty').css('color', 'transparent').css('pointer-events', 'none');
-    // updates score
-    updateScore(); 
-});
+//     $('#numTwenty').prop('disabled', true);
+//     $('#numTwenty').css('color', 'transparent').css('pointer-events', 'none');
+//     // updates score
+//     updateScore(); 
+// });
 
-// When user clicks, the question pops up.
-var numTwentyone = document.getElementById('numTwentyone');
-numTwentyone.addEventListener('click', function () {
-    var question = prompt('which former player is the NBA logo?');
-    console.log(question)
-    if (question == 'Jerry West') {
-        playerPoints += 50;
-        console.log(playerPoints)
+// // When user clicks, the question pops up.
+// var numTwentyone = document.getElementById('numTwentyone');
+// numTwentyone.addEventListener('click', function () {
+//     var question = prompt('which former player is the NBA logo?');
+//     console.log(question)
+//     if (question == 'Jerry West') {
+//         playerPoints += 50;
+//         console.log(playerPoints)
         
-        // this.textContent(score + playerPoints)
-    } else {
-        playerPoints -= 50;
-    }
+//         // this.textContent(score + playerPoints)
+//     } else {
+//         playerPoints -= 50;
+//     }
 
-    $('#numTwentyone').prop('disabled', true);
-    $('#numTwentyone').css('color', 'transparent').css('pointer-events', 'none');
-    // updates score
-    updateScore(); 
-});
+//     $('#numTwentyone').prop('disabled', true);
+//     $('#numTwentyone').css('color', 'transparent').css('pointer-events', 'none');
+//     // updates score
+//     updateScore(); 
+// });
 
-// When user clicks, the question pops up.
-var numTwentytwo = document.getElementById('numTwentytwo');
-numTwentytwo.addEventListener('click', function () {
-    var question = prompt('How many quadruple doubles have been recorded in the NBA?');
-    console.log(question)
-    if (question == '4') {
-        playerPoints += 50;
-        console.log(playerPoints)
+// // When user clicks, the question pops up.
+// var numTwentytwo = document.getElementById('numTwentytwo');
+// numTwentytwo.addEventListener('click', function () {
+//     var question = prompt('How many quadruple doubles have been recorded in the NBA?');
+//     console.log(question)
+//     if (question == '4') {
+//         playerPoints += 50;
+//         console.log(playerPoints)
         
-        // this.textContent(score + playerPoints)
-    } else {
-        playerPoints -= 50;
-    }
+//         // this.textContent(score + playerPoints)
+//     } else {
+//         playerPoints -= 50;
+//     }
 
-    $('#numTwentyTwo').prop('disabled', true);
-    $('#numTwentyTwo').css('color', 'transparent').css('pointer-events', 'none');
-    // updates score
-    updateScore(); 
-});
+//     $('#numTwentyTwo').prop('disabled', true);
+//     $('#numTwentyTwo').css('color', 'transparent').css('pointer-events', 'none');
+//     // updates score
+//     updateScore(); 
+// });
 
-// When user clicks, the question pops up.
-var numTwentythree = document.getElementById('numTwentythree');
-numTwentythree.addEventListener('click', function () {
-    var question = prompt('Which team has the most NBA championships?');
-    console.log(question)
-    if (question == 'Boston Celtics') {
-        playerPoints += 50;
-        console.log(playerPoints)
+// // When user clicks, the question pops up.
+// var numTwentythree = document.getElementById('numTwentythree');
+// numTwentythree.addEventListener('click', function () {
+//     var question = prompt('Which team has the most NBA championships?');
+//     console.log(question)
+//     if (question == 'Boston Celtics') {
+//         playerPoints += 50;
+//         console.log(playerPoints)
         
-        // this.textContent(score + playerPoints)
-    } else {
-        playerPoints -= 50;
-    }
+//         // this.textContent(score + playerPoints)
+//     } else {
+//         playerPoints -= 50;
+//     }
 
-    $('#numTwentyThree').prop('disabled', true);
-    $('#numTwentyThree').css('color', 'transparent').css('pointer-events', 'none');
-    // updates score
-    updateScore(); 
-});
+//     $('#numTwentyThree').prop('disabled', true);
+//     $('#numTwentyThree').css('color', 'transparent').css('pointer-events', 'none');
+//     // updates score
+//     updateScore(); 
+// });
 
-// When user clicks, the question pops up.
-var numTwentyfour = document.getElementById('numTwentyfour');
-numTwentyfour.addEventListener('click', function () {
-    var question = prompt('who holds the record for most all-star selections in the NBA?');
-    console.log(question)
-    if (question == 'LeBron James') {
-        playerPoints += 50;
-        console.log(playerPoints)
+// // When user clicks, the question pops up.
+// var numTwentyfour = document.getElementById('numTwentyfour');
+// numTwentyfour.addEventListener('click', function () {
+//     var question = prompt('who holds the record for most all-star selections in the NBA?');
+//     console.log(question)
+//     if (question == 'LeBron James') {
+//         playerPoints += 50;
+//         console.log(playerPoints)
         
-        // this.textContent(score + playerPoints)
-    } else {
-        playerPoints -= 50;
-    }
+//         // this.textContent(score + playerPoints)
+//     } else {
+//         playerPoints -= 50;
+//     }
 
-    $('#numTwentyFour').prop('disabled', true);
-    $('#numTwentyFour').css('color', 'transparent').css('pointer-events', 'none');
-    // updates score
-    updateScore(); 
-});
+//     $('#numTwentyFour').prop('disabled', true);
+//     $('#numTwentyFour').css('color', 'transparent').css('pointer-events', 'none');
+//     // updates score
+//     updateScore(); 
+// });
 
-// When user clicks, the question pops up.
-var numTwentyfive = document.getElementById('numTwentyfive');
-numTwentyfive.addEventListener('click', function () {
-    var question = prompt('what year did the NBAPA have it\'s first holdout?');
-    console.log(question)
-    if (question == '2011') {
-        playerPoints += 50;
-        console.log(playerPoints)
+// // When user clicks, the question pops up.
+// var numTwentyfive = document.getElementById('numTwentyfive');
+// numTwentyfive.addEventListener('click', function () {
+//     var question = prompt('what year did the NBAPA have it\'s first holdout?');
+//     console.log(question)
+//     if (question == '2011') {
+//         playerPoints += 50;
+//         console.log(playerPoints)
         
-        // this.textContent(score + playerPoints)
-    } else {
-        playerPoints -= 50;
-    }
+//         // this.textContent(score + playerPoints)
+//     } else {
+//         playerPoints -= 50;
+//     }
 
-    $('#numTwentyFour').prop('disabled', true);
-    $('#numTwentyFour').css('color', 'transparent').css('pointer-events', 'none');
-    // updates score
-    updateScore(); 
-});
+//     $('#numTwentyFour').prop('disabled', true);
+//     $('#numTwentyFour').css('color', 'transparent').css('pointer-events', 'none');
+//     // updates score
+//     updateScore(); 
+// });
 
 var button = document.getElementById('finished')
 button.addEventListener('click', function() {  
