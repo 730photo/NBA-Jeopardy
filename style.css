@@ -1,68 +1,75 @@
-body {
-    background-color: rgb(15, 0, 230);
-    font-family: 'Montserrat', sans-serif;
-}
-
-h1 {
+.headerOne {
+    margin-top: 30px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 65px;
     text-align: center;
-    color:  rgb(255, 255, 255);
-    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    background-color: #E70000;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 40px;
+    opacity: 0.85;
+    border: 5px solid gold;
 }
-
-h3 {
-    font-size: 30px;
-    color:  rgb(255, 255, 255);
-    font-family: 'Montserrat', sans-serif;
-    
-}
-
-.score {
+.scoreboard {
+    font-family: 'Gloria Hallelujah', cursive;
+    border: 5px solid gold ;
+    display: grid;
+    font-size: 50px;
     text-align: center;
-    font-size: 25px;
-    color: rgb(255, 255, 255);
-    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    margin: 30px 20%;
+    background-color: blue;
+    border-radius: 35px;
+    opacity: 0.85;
 }
-
-table {
-    width: 100%;
-    height: 600px;
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    margin-bottom: 30px;
+    max-width: 150px;   
+}
+.body {
+    background-size: cover;
+}
+.container {
+    font-family: 'Gloria Hallelujah', cursive;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 33fr 33fr 34fr;
+    grid-template-rows: 50px 100px 100px 100px;
+}
+.modal-question{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.disabled {
+    pointer-events: none;
+}
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+#HeaderOne, #HeaderTwo, #HeaderThree {
+    font-family: 'Gloria Hallelujah', cursive;
+    background: lightblue;
     text-align: center;
-    border: 2px solid rgb(194, 194, 194);
-    border-spacing: 10px;
     padding: 10px;
-    font-family: 'Montserrat', sans-serif;
+    border-radius: 35px;
+    font-weight: bolder;
+}
+#headerJeopardy {
+    max-width: 500px;
 }
 
-th {
-    text-align: center;
-    border: 2px solid #269;
-    background-color: rgb(194, 194, 194);
-    padding: 20px;
-    font-family: 'Montserrat', sans-serif;
+#reset {
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
-td {
-    border: rgb(167, 167, 167);
-    background-color: rgb(255, 255, 255);
-    color: rgb(194, 194, 194);
-    font-family: 'Montserrat', sans-serif;
-}
-
-
-.over {
-    text-align: center;
-    padding-top: 20px;
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-#finished {
-    background-color:  rgb(194, 194, 194);
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(255, 255, 255);
-    
-
-}
 
 
 
