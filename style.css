@@ -1,7 +1,7 @@
 .headerOne {
-    margin-top: 30px;
+    margin-top: 50px;
     font-family: 'Gloria Hallelujah', cursive;
-    font-size: 65px;
+    font-size: 40px;
     text-align: center;
     color: aliceblue;
     background-color: #E70000;
@@ -24,11 +24,12 @@
     opacity: 0.85;
 }
 #logo {
+    margin-top: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 15%;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     max-width: 150px;   
 }
 .body {
