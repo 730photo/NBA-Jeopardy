@@ -1,7 +1,7 @@
 $(() => {
 
     var score = 0
-    //Add 10 points and display correct
+    //Add 10 points and display CORRECT
     $(".correctTenPoints").on('click', () => {
         score += 10
         console.log(score)
@@ -11,7 +11,7 @@ $(() => {
         })
         newScore(score);
     }) 
-    //Add 20 points and display correct
+    //Add 20 points and display CORRECT
     $(".correctTwentyPoints").on('click', () => {
         score += 20
         console.log(score)
@@ -21,7 +21,7 @@ $(() => {
         })
         newScore(score)
     })
-    //Add 30 points
+    //Add 30 points and display CORRECT
     $(".correctThirtyPoints").on('click', () => {
         score += 30
         console.log(score)
@@ -31,8 +31,27 @@ $(() => {
         })
         newScore(score);
     })
-    //Alert for INCORRECT
-    $(".incorrect").on('click', () => {
+    //subtract 10 points for INCORRECT
+    $(".incorrectTenPoints").on('click', () => {
+        score -= 10
+        swal({
+            title: "INCORRECT",
+            icon: "error",
+        })
+        newScore(score);
+    })
+    //subtract 20 points for INCORRECT
+    $(".incorrectTwentyPoints").on('click', () => {
+        score -= 20
+        swal({
+            title: "INCORRECT",
+            icon: "error",
+        })
+        newScore(score);
+    })
+     //subtract 30 points for INCORRECT
+     $(".incorrectThirtyPoints").on('click', () => {
+        score -= 30
         swal({
             title: "INCORRECT",
             icon: "error",
@@ -56,7 +75,7 @@ function newScore(score) {
             title: "YOU WIN!",
             icon: "success",
         });
-        
+    
 }
 
 
